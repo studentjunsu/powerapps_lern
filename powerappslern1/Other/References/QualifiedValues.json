@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crbe9_newsarticle_forms",
+      "Namespace": "News Article (양식)",
+      "Values": {
+        "정보": "fd9c7da8-5ad6-449e-b1cb-fd25eccad278"
+      }
+    },
+    {
+      "Kind": "default.cds_crbe9_50bea27474a64324848e291e8c4db742_forms",
+      "Namespace": "새 테이블 (양식)",
+      "Values": {
+        "정보": "9d1ca8b3-06c5-4487-b149-b2e61ff8258b"
+      }
+    }
+  ]
+}

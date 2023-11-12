@@ -1,0 +1,95 @@
+[
+  {
+    "DisplayName": "새 테이블 (뷰)",
+    "Name": "_crbe9_50bea27474a64324848e291e8c4db742_views",
+    "RelatedEntityName": "새 테이블",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1857f5d2-8a35-41bf-9dab-d4b36511775f": "새 테이블 조회 보기",
+      "429b87d8-4aee-4f59-a299-4d0c6f17085e": "새 테이블 관련 보기",
+      "c4f592d7-f58b-4eba-903c-373d422bb903": "새 테이블의 상세하게 찾기 보기",
+      "ca64815e-4ffd-4792-89d0-d49bf19a09f2": "비활성 새 테이블",
+      "ebf16c9d-b0fa-427b-869a-8f9c1bf0ef10": "활성 새 테이블"
+    }
+  },
+  {
+    "DisplayName": "상태 (새 테이블)",
+    "Name": "crbe9_50bea27474a64324848e291e8c4db742_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "활성",
+      "1": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "새 테이블"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "새 테이블",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "상태 설명 (새 테이블)",
+    "Name": "crbe9_50bea27474a64324848e291e8c4db742_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "활성",
+      "2": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "새 테이블"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "새 테이블",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbe9_50bea27474a64324848e291e8c4db742s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbe9_50bea27474a64324848e291e8c4db742",
+    "MaxGetRowsCount": 500,
+    "Name": "새 테이블",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "담당자",
+      "crbe9_50bea27474a64324848e291e8c4db742_AsyncOperations": "시스템 작업 ",
+      "crbe9_50bea27474a64324848e291e8c4db742_BulkDeleteFailures": "대량 삭제 실패 ",
+      "crbe9_50bea27474a64324848e291e8c4db742_MailboxTrackingFolders": "사서함 자동 추적 폴더",
+      "crbe9_50bea27474a64324848e291e8c4db742_PrincipalObjectAttributeAccesses": "필드 공유",
+      "crbe9_50bea27474a64324848e291e8c4db742_ProcessSession": "프로세스 세션",
+      "crbe9_50bea27474a64324848e291e8c4db742_SyncErrors": "동기화 오류",
+      "crbe9_50bea27474a64324848e291e8c4db742id": "새 테이블",
+      "crbe9_8d80f3c384d74c6d9d85feac87f8a4d5": "새 열",
+      "createdby": "만든 사람",
+      "createdon": "만든 날짜",
+      "createdonbehalfby": "만든 사람(대리인)",
+      "importsequencenumber": "가져오기 시퀀스 번호",
+      "modifiedby": "수정한 사람",
+      "modifiedon": "수정한 날짜",
+      "modifiedonbehalfby": "수정한 사람(대리인)",
+      "overriddencreatedon": "레코드를 만든 날짜",
+      "owningbusinessunit": "담당 사업부",
+      "owningteam": "담당 팀",
+      "owninguser": "담당 사용자",
+      "statecode": "상태",
+      "statuscode": "상태 설명",
+      "timezoneruleversionnumber": "표준 시간대 규칙 버전 번호",
+      "utcconversiontimezonecode": "UTC 변환 표준 시간대 코드",
+      "versionnumber": "버전 번호"
+    },
+    "PreferredName": "새 테이블",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

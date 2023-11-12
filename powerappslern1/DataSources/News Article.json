@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbe9_newsarticles",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbe9_newsarticle",
+    "MaxGetRowsCount": 500,
+    "Name": "News Article",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "담당자",
+      "crbe9_image": "Image",
+      "crbe9_mediaoutlet": "Media Outlet",
+      "crbe9_newsarticle_AsyncOperations": "시스템 작업 ",
+      "crbe9_newsarticle_BulkDeleteFailures": "대량 삭제 실패 ",
+      "crbe9_newsarticle_MailboxTrackingFolders": "사서함 자동 추적 폴더",
+      "crbe9_newsarticle_PrincipalObjectAttributeAccesses": "필드 공유",
+      "crbe9_newsarticle_ProcessSession": "프로세스 세션",
+      "crbe9_newsarticle_SyncErrors": "동기화 오류",
+      "crbe9_newsarticleid": "News Article",
+      "crbe9_summary": "Summary",
+      "crbe9_title": "jstablenaver",
+      "crbe9_url": "URL",
+      "createdby": "만든 사람",
+      "createdon": "만든 날짜",
+      "createdonbehalfby": "만든 사람(대리인)",
+      "importsequencenumber": "가져오기 시퀀스 번호",
+      "modifiedby": "수정한 사람",
+      "modifiedon": "수정한 날짜",
+      "modifiedonbehalfby": "수정한 사람(대리인)",
+      "overriddencreatedon": "레코드를 만든 날짜",
+      "owningbusinessunit": "담당 사업부",
+      "owningteam": "담당 팀",
+      "owninguser": "담당 사용자",
+      "statecode": "상태",
+      "statuscode": "상태 설명",
+      "timezoneruleversionnumber": "표준 시간대 규칙 버전 번호",
+      "utcconversiontimezonecode": "UTC 변환 표준 시간대 코드",
+      "versionnumber": "버전 번호"
+    },
+    "PreferredName": "News Article",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "News Article (뷰)",
+    "Name": "_crbe9_newsarticle_views",
+    "RelatedEntityName": "News Article",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "18a8b217-9be7-41c3-a4c1-84ceaa3fd74e": "News Article의 상세하게 찾기 보기",
+      "19d1f378-4b56-4bd1-af80-bbe68fd6e9fe": "News Article 조회 보기",
+      "26ec1cf6-e4d9-4999-a9db-e0664ed8ba16": "비활성 News Article",
+      "bcebec47-ec47-4e20-aaef-4278d44d756d": "News Article 관련 보기",
+      "c5d67a15-228e-4635-8de4-59cbcfcc6d89": "활성 News Article"
+    }
+  },
+  {
+    "DisplayName": "상태 (News Article)",
+    "Name": "crbe9_newsarticle_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "활성",
+      "1": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "News Article"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "News Article",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "상태 설명 (News Article)",
+    "Name": "crbe9_newsarticle_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "활성",
+      "2": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "News Article"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "News Article",
+    "Type": "OptionSetInfo"
+  }
+]
